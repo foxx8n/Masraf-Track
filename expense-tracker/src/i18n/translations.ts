@@ -1,0 +1,168 @@
+import { Translations } from '../types/settings';
+
+export const translations: Translations = {
+  en: {
+    // Header
+    'app.title': 'Expense Tracker',
+    
+    // Form
+    'form.title': 'Add Expense',
+    'form.amount': 'Amount',
+    'form.category': 'Category',
+    'form.description': 'Description',
+    'form.date': 'Date',
+    'form.submit': 'Add Expense',
+    'form.customCategory': 'Custom Category',
+    'form.enterCustomCategory': 'Enter Custom Category',
+    'form.customCategoryPlaceholder': 'Enter a custom category name',
+    
+    // Categories
+    'category.food': 'Food',
+    'category.transportation': 'Transportation',
+    'category.housing': 'Housing',
+    'category.utilities': 'Utilities',
+    'category.entertainment': 'Entertainment',
+    'category.shopping': 'Shopping',
+    'category.healthcare': 'Healthcare',
+    'category.debt': 'Debt',
+    'category.electronics': 'Electronics',
+    'category.education': 'Education',
+    'category.clothing': 'Clothing',
+    'category.gifts': 'Gifts',
+    'category.travel': 'Travel',
+    'category.insurance': 'Insurance',
+    'category.pets': 'Pets',
+    'category.masraf': 'Expense',
+    'category.other': 'Other',
+    
+    // List
+    'list.title': 'Expenses',
+    'list.noExpenses': 'No expenses found',
+    'list.filter.all': 'All Categories',
+    'list.sort.date': 'Sort by Date',
+    'list.sort.amount': 'Sort by Amount',
+    'list.search': 'Search expenses by description, amount, person...',
+    'list.totalCount': '{count} expenses found',
+    
+    // Stats
+    'stats.summary': 'Summary',
+    'stats.total': 'Total Expenses',
+    'stats.byCategory': 'Expenses by Category',
+    'stats.last7Days': 'Last 7 Days',
+    'stats.chartType': 'Chart Type',
+    'stats.chartType.pie': 'Pie Chart',
+    'stats.chartType.bar': 'Bar Chart',
+    'stats.chartType.line': 'Line Chart',
+    'stats.chartType.doughnut': 'Doughnut Chart',
+    'stats.dateRange': 'Date Range',
+    'stats.dateRange.today': 'Today',
+    'stats.dateRange.7days': 'Last 7 Days',
+    'stats.dateRange.15days': 'Last 15 Days',
+    'stats.dateRange.30days': 'Last 30 Days',
+    'stats.dateRange.thisMonth': 'This Month',
+    'stats.dateRange.lastMonth': 'Last Month',
+    'stats.dateRange.all': 'All Time',
+    
+    // Settings
+    'settings.theme': 'Theme',
+    'settings.theme.light': 'Light',
+    'settings.theme.dark': 'Dark',
+    'settings.language': 'Language',
+    'settings.language.en': 'English',
+    'settings.language.tr': 'Turkish',
+    'settings.currency': 'Currency',
+    'settings.currency.usd': 'US Dollar',
+    'settings.currency.try': 'Turkish Lira',
+    'settings.currency.usdt': 'USDT',
+    
+    // Debt
+    'debt.type': 'Debt Type',
+    'debt.borrowed': 'Borrowed',
+    'debt.lent': 'Lent',
+    'debt.person': 'Person',
+    'debt.personPlaceholder': 'Who did you borrow from/lend to?',
+    'debt.dueDate': 'Due Date',
+  },
+  tr: {
+    // Header
+    'app.title': 'Masraf Takibi',
+    
+    // Form
+    'form.title': 'Masraf Ekle',
+    'form.amount': 'Tutar',
+    'form.category': 'Kategori',
+    'form.description': 'Açıklama',
+    'form.date': 'Tarih',
+    'form.submit': 'Masraf Ekle',
+    'form.customCategory': 'Özel Kategori',
+    'form.enterCustomCategory': 'Özel Kategori Girin',
+    'form.customCategoryPlaceholder': 'Özel kategori adı girin',
+    
+    // Categories
+    'category.food': 'Yemek',
+    'category.transportation': 'Ulaşım',
+    'category.housing': 'Konut',
+    'category.utilities': 'Faturalar',
+    'category.entertainment': 'Eğlence',
+    'category.shopping': 'Alışveriş',
+    'category.healthcare': 'Sağlık',
+    'category.debt': 'Borç',
+    'category.electronics': 'Elektronik',
+    'category.education': 'Eğitim',
+    'category.clothing': 'Giyim',
+    'category.gifts': 'Hediyeler',
+    'category.travel': 'Seyahat',
+    'category.insurance': 'Sigorta',
+    'category.pets': 'Evcil Hayvanlar',
+    'category.masraf': 'Masraf',
+    'category.other': 'Diğer',
+    
+    // List
+    'list.title': 'Masraflar',
+    'list.noExpenses': 'Masraf bulunamadı',
+    'list.filter.all': 'Tüm Kategoriler',
+    'list.sort.date': 'Tarihe Göre Sırala',
+    'list.sort.amount': 'Tutara Göre Sırala',
+    'list.search': 'Açıklama, tutar, kişi ile arama yapın...',
+    'list.totalCount': '{count} masraf bulundu',
+    
+    // Stats
+    'stats.summary': 'Özet',
+    'stats.total': 'Toplam Masraf',
+    'stats.byCategory': 'Kategoriye Göre Masraflar',
+    'stats.last7Days': 'Son 7 Gün',
+    'stats.chartType': 'Grafik Tipi',
+    'stats.chartType.pie': 'Pasta Grafik',
+    'stats.chartType.bar': 'Çubuk Grafik',
+    'stats.chartType.line': 'Çizgi Grafik',
+    'stats.chartType.doughnut': 'Halka Grafik',
+    'stats.dateRange': 'Tarih Aralığı',
+    'stats.dateRange.today': 'Bugün',
+    'stats.dateRange.7days': 'Son 7 Gün',
+    'stats.dateRange.15days': 'Son 15 Gün',
+    'stats.dateRange.30days': 'Son 30 Gün',
+    'stats.dateRange.thisMonth': 'Bu Ay',
+    'stats.dateRange.lastMonth': 'Geçen Ay',
+    'stats.dateRange.all': 'Tüm Zamanlar',
+    
+    // Settings
+    'settings.theme': 'Tema',
+    'settings.theme.light': 'Açık',
+    'settings.theme.dark': 'Koyu',
+    'settings.language': 'Dil',
+    'settings.language.en': 'İngilizce',
+    'settings.language.tr': 'Türkçe',
+    'settings.currency': 'Para Birimi',
+    'settings.currency.usd': 'Amerikan Doları',
+    'settings.currency.try': 'Türk Lirası',
+    'settings.currency.usdt': 'USDT',
+    
+    // Debt
+    'debt.type': 'Borç Tipi',
+    'debt.borrowed': 'Alınan Borç',
+    'debt.lent': 'Verilen Borç',
+    'debt.person': 'Kişi',
+    'debt.personPlaceholder': 'Kimden aldınız/kime verdiniz?',
+    'debt.dueDate': 'Son Ödeme Tarihi',
+  },
+}; 
